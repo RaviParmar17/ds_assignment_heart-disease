@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.preprocessing import MinMaxScaler
 
 # Load dataset
-df_heart = pd.read_csv("./heart_disease_dataset.csv")
+df_heart = pd.read_csv("./heart_disease_dataset (2).csv")
 
 # Rename columns if necessary
 df_heart.rename(columns={
